@@ -44,7 +44,7 @@ const App = ():JSX.Element => {
       found.quantity+=1
       setCartItems(items)
     }else{
-      setCartItems([...cartItems,{...product,quantity:1}])
+      setCartItems([...items,{...product,quantity:1}])
     }
     }
   const removeFromCartHandler = (productName:string) =>{
