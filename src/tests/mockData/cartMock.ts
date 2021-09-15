@@ -1,24 +1,29 @@
 export const cartMock =  [
     {
+      id:1,
       name:"Sledgehammer",
       price: 1,
       quantity:1
     },
     {
+      id:2,
       name:"Axe",
       price:2,
       quantity:3
     },
     {
+      id:3,
       name:"Bandsaw",
       price:2,
       quantity:4
     },{
+      id:4,
       name:"Chisel",
       price:2,
       quantity:5
     },
     {
+      id:5,
       name:"Hacksaw",
       price:2,
       quantity:6

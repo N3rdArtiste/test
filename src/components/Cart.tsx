@@ -25,7 +25,7 @@ const total = data.reduce((acc,cv)=> {
         <div style={{display:'flex',flexDirection:'column',boxSizing:'border-box',padding:10,height:'100%'}}>
             <h2>Cart</h2>
        <div style={{flexGrow:1,overflow:'scroll' }}>
-       {data.map((item)=><CartItem key={item.name} name={item.name} price={item.price} quantity={item.quantity} onRemoveFromCartClick={()=>onRemoveFromCartClick(item.name)}  />)}
+       {data.map((item)=><CartItem key={item.name} name={item.name} price={item.price} quantity={item.quantity} onRemoveFromCartClick={()=>onRemoveFromCartClick(item.id)}  />)}
        </div>
        <div style={{width:'100%',border:'1px solid gold'}}>
            <b>Total: </b><p>${total}</p>

@@ -13,7 +13,7 @@ return <div style={{border:'1px green solid',flexBasis:'33.33%',padding:5,boxSiz
 export const ProductListing = ({data,onAddToCartClick}:ProductListingProps):JSX.Element => {
     return (
         <div style={{border:'1px solid blue',display:'flex',flexWrap:'wrap',padding:10,width:'100%',boxSizing:'border-box'}}>
-            {data.map((product)=><ProductListingItem key={product.name} name={product.name} price={product.price} onAddToCartClick={()=>onAddToCartClick(product)} />)}
+            {data.map((product)=><ProductListingItem key={product.id} name={product.name} price={product.price} onAddToCartClick={()=>onAddToCartClick(product)} />)}
         </div>
     )
 }

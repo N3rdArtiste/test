@@ -5,6 +5,8 @@ export interface ProductListingProps {
     onAddToCartClick: (product:Product) => void
 }
 
-export interface ProductListingItemProps extends Product {
+export interface ProductListingItemProps {
     onAddToCartClick: () => void
+    name:string;
+    price:number;
 }
