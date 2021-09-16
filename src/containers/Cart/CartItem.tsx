@@ -20,7 +20,7 @@ const CartItem = ({
       <Typography variant={TypographyVariants.Bold} text={name} />
       <Typography
         variant={TypographyVariants.SemiBold}
-        text={`Price: ${truncateNumber(price, 2).toFixed(2)}`}
+        text={`Price: $${truncateNumber(price, 2).toFixed(2)}`}
       />
       <Typography
         variant={TypographyVariants.Regular}
@@ -28,7 +28,7 @@ const CartItem = ({
       />
       <Typography
         variant={TypographyVariants.Regular}
-        text={`Total: ${totalPrice}`}
+        text={`Total: $${totalPrice}`}
       />
       <Button text="Remove from Cart" onClick={onRemoveFromCartClick} />
     </Card>
