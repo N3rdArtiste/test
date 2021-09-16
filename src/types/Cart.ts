@@ -1,17 +1,17 @@
 import { Product } from ".";
 
 export type CartItem = Product & {
-    quantity:number;
-}
+  quantity: number;
+};
 
 export interface CartProps {
-    data: CartItem[];
-    onRemoveFromCartClick: (id:number) => void;
+  data: CartItem[];
+  onRemoveFromCartClick: (name: string) => void;
 }
 
 export interface CartItemProps {
-    onRemoveFromCartClick: () => void;
-    name:string;
-    price:number;
-    quantity:number;
+  onRemoveFromCartClick: () => void;
+  name: string;
+  price: number;
+  quantity: number;
 }

@@ -1,0 +1,14 @@
+.regular {
+  font-weight: 300;
+  color: "#3C2F25";
+}
+
+.bold {
+  font-weight: 900;
+  color: "#3C2F25";
+}
+
+.semiBold {
+  font-weight: 500;
+  color: "#3C2F25";
+}

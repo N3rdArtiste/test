@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  border: 1px red solid;
+  max-width: 1440;
+  box-sizing: border-box;
+  height: 100vh;
+  margin: auto;
+  background-color: #faf5f2;
+}
