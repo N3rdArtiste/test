@@ -3,7 +3,7 @@ import styles from "./Card.module.css";
 
 type Props = {
   children: ReactNode;
-  customStyle?: any;
+  customStyle?: React.CSSProperties;
 };
 
 function Card({ children, customStyle }: Props) {
